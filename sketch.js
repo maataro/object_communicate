@@ -6,9 +6,7 @@ function setup() {
 		let y = random(height);
 		let r = random(20, 50);
 		bubbles[i] = new Bubble(x, y, r);
-	}
-
-	unicorn = new Bubble(200, 200, 50);
+	}	
 }
 
 function draw() {
